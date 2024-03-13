@@ -71,16 +71,6 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={todo}
-              isBlog={false}
-              title="To do List"
-              description="A straightforward to-do list that is highly helpful for individuals like me who enjoy taking copious notes before acting on things. ReactJS was the framework I used to construct this."
-              ghLink="https://github.com/Sam-mx/Todo-List_react"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
               imgPath={dictionary}
               isBlog={false}
               title="Wordictionary"
@@ -88,6 +78,18 @@ function Projects() {
               ghLink="https://github.com/Sam-mx/7-days-Challenge/tree/main/Dictionary"
             />
           </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={todo}
+              isBlog={false}
+              title="To do List"
+              description="A straightforward to-do list that is highly helpful for individuals like me who enjoy taking copious notes before acting on things. ReactJS was the framework I used to construct this."
+              ghLink="https://github.com/Sam-mx/Todo-List_react"
+              demoLink="https://sam-todo.vercel.app"   
+            />
+          </Col>
+
         </Row>
       </Container>
     </Container>
