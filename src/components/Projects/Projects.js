@@ -4,7 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import unviersity from "../../Assets/Projects/university.png";
 import tennis_club from "../../Assets/Projects/tennis_club.png";
-import rentfolio from "../../Assets/Projects/rentfolio.png";
+import chat from "../../Assets/Projects/chat.png";
 import rental from "../../Assets/Projects/rental.png";
 import todo from "../../Assets/Projects/to_do_list.png";
 import dictionary from "../../Assets/Projects/dictionary.png";
@@ -45,11 +45,17 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={rentfolio}
+              imgPath={chat}
               isBlog={false}
-              title="Rentfolio Clone"
-              description="This is the webpage which inspired from the renfolio page. Here, I'm testing react{props} to create a rentfolio clone just for displaying cards. Users can view the apartments' details"
-              ghLink="https://github.com/Sam-mx/Rentfolio-clone-react"         
+              title="Real Time Chat Application"
+              description="A MERN Stack Project with Building and Deploying a Real Time Chat App | JWT, Socket.io.
+              🌟 Tech stack: MERN + Socket.io + TailwindCSS + Daisy UI
+              🎃 Authentication && Authorization with JWT
+              👾 Real-time messaging with Socket.io
+              🚀 Online user status (Socket.io and React Context)
+              👌 Global state management with Zustand"
+              ghLink="https://github.com/Sam-mx/chat-app-react"
+              demoLink="https://chat-application-sam.onrender.com"         
             />
           </Col>
 
