@@ -8,6 +8,7 @@ import chat from "../../Assets/Projects/chat.png";
 import rental from "../../Assets/Projects/rental.png";
 import todo from "../../Assets/Projects/to_do_list.png";
 import dictionary from "../../Assets/Projects/dictionary.png";
+import weather from "../../Assets/Projects/weather.png";
 
 function Projects() {
   return (
@@ -61,21 +62,22 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={rental}
-              isBlog={false}
-              title="RentalU"
-              description="RentalU Application using SQLite Database to do INSERT, UPDATE, DELETE, READ QUERY For Assignment. It is using Java language to develop an android application. It's about an application for renting apartments, where tenants can list the details of their units. "
-              ghLink="https://github.com/Sam-mx/RentalU_Andriod"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
               imgPath={dictionary}
               isBlog={false}
               title="Wordictionary"
               description="This is one of the project that I keep developing in my 7 days challenge.  A Word dictionary , where you can search for meaning, pronounciation, example (use of that word in sentences) of millions of words and also bookmark the words for future references."
               ghLink="https://github.com/Sam-mx/7-days-Challenge/tree/main/Dictionary"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={weather}
+              isBlog={false}
+              title="Weather Application"
+              description="A simple weather forecasting application that allows users to type in their city and see the weather for the next week, including wind speed, humidity, and heat index. 🌟 Tech stack: 🚀 REACT +  🎐 Axio  + ☂️ TailwindCSS"
+              ghLink="https://github.com/Sam-mx/Weather-Application-React"
+              demoLink="https://sam-weather-app.vercel.app"   
             />
           </Col>
 
@@ -87,6 +89,16 @@ function Projects() {
               description="A straightforward to-do list that is highly helpful for individuals like me who enjoy taking copious notes before acting on things. ReactJS was the framework I used to construct this."
               ghLink="https://github.com/Sam-mx/Todo-List_react"
               demoLink="https://sam-todo.vercel.app"   
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={rental}
+              isBlog={false}
+              title="RentalU"
+              description="RentalU Application using SQLite Database to do INSERT, UPDATE, DELETE, READ QUERY For Assignment. It is using Java language to develop an android application. It's about an application for renting apartments, where tenants can list the details of their units. "
+              ghLink="https://github.com/Sam-mx/RentalU_Andriod"
             />
           </Col>
 
