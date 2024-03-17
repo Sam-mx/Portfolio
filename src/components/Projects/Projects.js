@@ -9,6 +9,7 @@ import rental from "../../Assets/Projects/rental.png";
 import todo from "../../Assets/Projects/to_do_list.png";
 import dictionary from "../../Assets/Projects/dictionary.png";
 import weather from "../../Assets/Projects/weather.png";
+import movie from "../../Assets/Projects/movie.png";
 
 function Projects() {
   return (
@@ -60,13 +61,15 @@ function Projects() {
             />
           </Col>
 
+
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={dictionary}
+              imgPath={movie}
               isBlog={false}
-              title="Wordictionary"
-              description="This is one of the project that I keep developing in my 7 days challenge.  A Word dictionary , where you can search for meaning, pronounciation, example (use of that word in sentences) of millions of words and also bookmark the words for future references."
-              ghLink="https://github.com/Sam-mx/7-days-Challenge/tree/main/Dictionary"
+              title="Sam Movies"
+              description="A straightforward, API-powered movie application that is responsive and lets users search for and discover the newest TV series and films along with cast and movie details. Additionally, they can view their trailers.🌟 Tech stack: 🚀 REACT +  🎐 Axio  + ☂️ SCSS"
+              ghLink="https://github.com/Sam-mx/Movie-Application-React"
+              demoLink="https://sam-movies.vercel.app/"   
             />
           </Col>
 
@@ -89,6 +92,16 @@ function Projects() {
               description="A straightforward to-do list that is highly helpful for individuals like me who enjoy taking copious notes before acting on things. ReactJS was the framework I used to construct this."
               ghLink="https://github.com/Sam-mx/Todo-List_react"
               demoLink="https://sam-todo.vercel.app"   
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={dictionary}
+              isBlog={false}
+              title="Wordictionary"
+              description="This is one of the project that I keep developing in my 7 days challenge.  A Word dictionary , where you can search for meaning, pronounciation, example (use of that word in sentences) of millions of words and also bookmark the words for future references."
+              ghLink="https://github.com/Sam-mx/7-days-Challenge/tree/main/Dictionary"
             />
           </Col>
 
