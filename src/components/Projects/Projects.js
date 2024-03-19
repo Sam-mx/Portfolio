@@ -10,6 +10,7 @@ import todo from "../../Assets/Projects/to_do_list.png";
 import dictionary from "../../Assets/Projects/dictionary.png";
 import weather from "../../Assets/Projects/weather.png";
 import movie from "../../Assets/Projects/movie.png";
+import ecommerce from "../../Assets/Projects/ecommerce.png";
 
 function Projects() {
   return (
@@ -61,6 +62,19 @@ function Projects() {
             />
           </Col>
 
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={ecommerce}
+              isBlog={false}
+              title="Sam eCommerce"
+              description="Build and Deploy a Responsive Full Stack E-Commerce App with an Admin Dashboard & CMS in 2024 | Next 14, Stripe.
+              🌟 Using Next.js and PayloadCMS to understand the CMS
+              🎃 Using MongoDB for the backend development
+              🚀 Only 7 Days Trial for the Demo Mode But still rendering it"
+              ghLink="https://github.com/Sam-mx/sam-ecommerce"
+              demoLink="https://sam-ecommerce.payloadcms.app/"         
+            />
+          </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
