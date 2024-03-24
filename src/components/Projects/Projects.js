@@ -11,6 +11,7 @@ import dictionary from "../../Assets/Projects/dictionary.png";
 import weather from "../../Assets/Projects/weather.png";
 import movie from "../../Assets/Projects/movie.png";
 import ecommerce from "../../Assets/Projects/ecommerce.png";
+import recipe from "../../Assets/Projects/recipe.png";
 
 function Projects() {
   return (
@@ -95,6 +96,19 @@ function Projects() {
               description="A simple weather forecasting application that allows users to type in their city and see the weather for the next week, including wind speed, humidity, and heat index. 🌟 Tech stack: 🚀 REACT +  🎐 Axio  + ☂️ TailwindCSS"
               ghLink="https://github.com/Sam-mx/Weather-Application-React"
               demoLink="https://sam-weather-app.vercel.app"   
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={recipe}
+              isBlog={false}
+              title="Sam's Recipe Finder"
+              description="A web application on a single page that lets users search recipes with specific queries.
+               Using 🌟style-components
+              🎃 axios, 🚀 react-scripts
+              👾 material-ui@mui"
+              ghLink="https://github.com/Sam-mx/Recipe-Finder-React"
+              demoLink="https://sam-recipe.vercel.app/"         
             />
           </Col>
 
