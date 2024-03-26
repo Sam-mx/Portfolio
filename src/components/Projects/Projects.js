@@ -12,6 +12,7 @@ import weather from "../../Assets/Projects/weather.png";
 import movie from "../../Assets/Projects/movie.png";
 import ecommerce from "../../Assets/Projects/ecommerce.png";
 import recipe from "../../Assets/Projects/recipe.png";
+import AI from "../../Assets/Projects/AI-image.png";
 
 function Projects() {
   return (
@@ -109,6 +110,20 @@ function Projects() {
               👾 material-ui@mui"
               ghLink="https://github.com/Sam-mx/Recipe-Finder-React"
               demoLink="https://sam-recipe.vercel.app/"         
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={AI}
+              isBlog={false}
+              title="AI Image Generation App"
+              description="A MERN Stack Project with Building and Deploying an AI Image Generation App.
+              🌟 Tech stack: MERN +  TailwindCSS + openAI API
+              👾 Since it's the paid API, the daily image generation is limited.
+              🚀 Can Create an image as a DALL-E after you paid the API.
+              👌 Here, I'm only experimenting with the logic; I'm not paying the API. Therefore, I don't deploy on the render."
+              ghLink="https://github.com/Sam-mx/AI-Image-Generation-App"     
             />
           </Col>
 
