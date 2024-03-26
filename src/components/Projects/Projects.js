@@ -77,8 +77,7 @@ function Projects() {
               🌟 Using Next.js and PayloadCMS to understand the CMS
               🎃 Using MongoDB for the backend development
               🚀 Only 7 Days Trial for the Demo Mode But still rendering it"
-              ghLink="https://github.com/Sam-mx/sam-ecommerce"
-              demoLink="https://sam-ecommerce.payloadcms.app/"         
+              ghLink="https://github.com/Sam-mx/sam-ecommerce"      
             />
           </Col>
 
