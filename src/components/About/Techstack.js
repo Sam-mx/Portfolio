@@ -16,7 +16,8 @@ import {
   SiSqlite,
   SiTypescript,
   SiNextdotjs,
-  SiWordpress
+  SiWordpress,
+  SiTailwindcss,
 } from "react-icons/si";
 
 function Techstack() {
@@ -39,6 +40,9 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiReact />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiTailwindcss />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiMongodb />
