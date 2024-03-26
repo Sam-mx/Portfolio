@@ -40,14 +40,18 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={tennis_club}
+              imgPath={AI}
               isBlog={false}
-              title="Tennis Club"
-              description="A University's Tennis Club where users can learn about details about this club.They can also view and register for the upcoming events. An administrator can view, insert, update, and delete those applicants. This was for my Web Programming Assignment."
-              ghLink="https://github.com/Sam-mx/Tennis_Club_Assignment"
+              title="AI Image Generation App"
+              description="A MERN Stack Project with Building and Deploying an AI Image Generation App.
+              🌟 Tech stack: MERN +  TailwindCSS + openAI API
+              👾 Since it's the paid API, the daily image generation is limited.
+              🚀 Can Create an image as a DALL-E after you paid the API.
+              👌 Here, I'm only experimenting with the logic; I'm not paying the API. Therefore, I don't deploy on the render."
+              ghLink="https://github.com/Sam-mx/AI-Image-Generation-App"     
             />
           </Col>
-
+          
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={chat}
@@ -115,26 +119,22 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={AI}
-              isBlog={false}
-              title="AI Image Generation App"
-              description="A MERN Stack Project with Building and Deploying an AI Image Generation App.
-              🌟 Tech stack: MERN +  TailwindCSS + openAI API
-              👾 Since it's the paid API, the daily image generation is limited.
-              🚀 Can Create an image as a DALL-E after you paid the API.
-              👌 Here, I'm only experimenting with the logic; I'm not paying the API. Therefore, I don't deploy on the render."
-              ghLink="https://github.com/Sam-mx/AI-Image-Generation-App"     
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
               imgPath={todo}
               isBlog={false}
               title="To do List"
               description="A straightforward to-do list that is highly helpful for individuals like me who enjoy taking copious notes before acting on things. ReactJS was the framework I used to construct this."
               ghLink="https://github.com/Sam-mx/Todo-List_react"
               demoLink="https://sam-todo.vercel.app"   
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={tennis_club}
+              isBlog={false}
+              title="Tennis Club"
+              description="A University's Tennis Club where users can learn about details about this club.They can also view and register for the upcoming events. An administrator can view, insert, update, and delete those applicants. This was for my Web Programming Assignment."
+              ghLink="https://github.com/Sam-mx/Tennis_Club_Assignment"
             />
           </Col>
 
