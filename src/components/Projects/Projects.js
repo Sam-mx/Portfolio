@@ -13,6 +13,7 @@ import movie from "../../Assets/Projects/movie.png";
 import ecommerce from "../../Assets/Projects/ecommerce.png";
 import recipe from "../../Assets/Projects/recipe.png";
 import AI from "../../Assets/Projects/AI-image.png";
+import Samverse from "../../Assets/Projects/samverse.png";
 
 function Projects() {
   return (
@@ -76,7 +77,7 @@ function Projects() {
               description="Build and Deploy a Responsive Full Stack E-Commerce App with an Admin Dashboard & CMS in 2024 | Next 14, Stripe.
               🌟 Using Next.js and PayloadCMS to understand the CMS
               🎃 Using MongoDB for the backend development
-              🚀 Only 7 Days Trial for the Demo Mode But still rendering it"
+              🚀 Since the trial mode is ended, there's no demo mode."
               ghLink="https://github.com/Sam-mx/sam-ecommerce"      
             />
           </Col>
@@ -113,6 +114,16 @@ function Projects() {
               👾 material-ui@mui"
               ghLink="https://github.com/Sam-mx/Recipe-Finder-React"
               demoLink="https://sam-recipe.vercel.app/"         
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Samverse}
+              isBlog={false}
+              title="Samverse"
+              description="Building a COMPLETE Fullstack Responsive Social 🌟MERN🌟 Application with Auth, Likes, Dark Mode | React, MongoDB, MUI. There's still no deployment for this application yet."
+              ghLink="https://github.com/Sam-mx/Responsive-Social-App"
             />
           </Col>
 
