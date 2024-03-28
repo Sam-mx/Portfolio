@@ -14,6 +14,7 @@ import ecommerce from "../../Assets/Projects/ecommerce.png";
 import recipe from "../../Assets/Projects/recipe.png";
 import AI from "../../Assets/Projects/AI-image.png";
 import Samverse from "../../Assets/Projects/samverse.png";
+import samcrypto from "../../Assets/Projects/sam_crypto.png";
 
 function Projects() {
   return (
@@ -124,6 +125,20 @@ function Projects() {
               title="Samverse"
               description="Building a COMPLETE Fullstack Responsive Social 🌟MERN🌟 Application with Auth, Likes, Dark Mode | React, MongoDB, MUI. There's still no deployment for this application yet."
               ghLink="https://github.com/Sam-mx/Responsive-Social-App"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={samcrypto}
+              isBlog={false}
+              title="Sam's Crypto Currency App"
+              description="It's an application which allows you to search for coins and view the price of cryptocurrency.
+               Using 🌟React.js
+              🎃 CSS3, 🚀 axios
+              👾 CoinGecko API"
+              ghLink="https://github.com/Sam-mx/Crypto-App-React"
+              demoLink="https://sam-crypto.vercel.app/"         
             />
           </Col>
 
