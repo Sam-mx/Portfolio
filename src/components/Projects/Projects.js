@@ -15,6 +15,7 @@ import recipe from "../../Assets/Projects/recipe.png";
 import AI from "../../Assets/Projects/AI-image.png";
 import Samverse from "../../Assets/Projects/samverse.png";
 import samcrypto from "../../Assets/Projects/sam_crypto.png";
+import expense from "../../Assets/Projects/expense.png";
 
 function Projects() {
   return (
@@ -42,15 +43,12 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={AI}
+              imgPath={movie}
               isBlog={false}
-              title="AI Image Generation App"
-              description="A MERN Stack Project with Building and Deploying an AI Image Generation App.
-              🌟 Tech stack: MERN +  TailwindCSS + openAI API
-              👾 Since it's the paid API, the daily image generation is limited.
-              🚀 Can Create an image as a DALL-E after you paid the API.
-              👌 Here, I'm only experimenting with the logic; I'm not paying the API. Therefore, I don't deploy on the render."
-              ghLink="https://github.com/Sam-mx/AI-Image-Generation-App"     
+              title="Sam Movies"
+              description="A straightforward, API-powered movie application that is responsive and lets users search for and discover the newest TV series and films along with cast and movie details. Additionally, they can view their trailers.🌟 Tech stack: 🚀 REACT +  🎐 Axio  + ☂️ SCSS"
+              ghLink="https://github.com/Sam-mx/Movie-Application-React"
+              demoLink="https://sam-movies.vercel.app/"   
             />
           </Col>
           
@@ -72,30 +70,6 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={ecommerce}
-              isBlog={false}
-              title="Sam eCommerce"
-              description="Build and Deploy a Responsive Full Stack E-Commerce App with an Admin Dashboard & CMS in 2024 | Next 14, Stripe.
-              🌟 Using Next.js and PayloadCMS to understand the CMS
-              🎃 Using MongoDB for the backend development
-              🚀 Since the trial mode is ended, there's no demo mode."
-              ghLink="https://github.com/Sam-mx/sam-ecommerce"      
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={movie}
-              isBlog={false}
-              title="Sam Movies"
-              description="A straightforward, API-powered movie application that is responsive and lets users search for and discover the newest TV series and films along with cast and movie details. Additionally, they can view their trailers.🌟 Tech stack: 🚀 REACT +  🎐 Axio  + ☂️ SCSS"
-              ghLink="https://github.com/Sam-mx/Movie-Application-React"
-              demoLink="https://sam-movies.vercel.app/"   
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
               imgPath={weather}
               isBlog={false}
               title="Weather Application"
@@ -104,6 +78,7 @@ function Projects() {
               demoLink="https://sam-weather-app.vercel.app"   
             />
           </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={recipe}
@@ -115,16 +90,6 @@ function Projects() {
               👾 material-ui@mui"
               ghLink="https://github.com/Sam-mx/Recipe-Finder-React"
               demoLink="https://sam-recipe.vercel.app/"         
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={Samverse}
-              isBlog={false}
-              title="Samverse"
-              description="Building a COMPLETE Fullstack Responsive Social 🌟MERN🌟 Application with Auth, Likes, Dark Mode | React, MongoDB, MUI. There's still no deployment for this application yet."
-              ghLink="https://github.com/Sam-mx/Responsive-Social-App"
             />
           </Col>
 
@@ -144,12 +109,63 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={expense}
+              isBlog={false}
+              title="Sam's Expense Tracker"
+              description="It's a Webapp that can be used to keep track of all incomes and expenses so that you never have to wonder where you spent all your hard earned money!
+               Using 🌟React.js
+              🎃 JavaScript, 🚀 CSS
+              👾 MaterialUI"
+              ghLink="https://github.com/Sam-mx/Sam-Expense-Tracker"
+              demoLink="https://sam-expense.vercel.app/"         
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={todo}
               isBlog={false}
               title="To do List"
               description="A straightforward to-do list that is highly helpful for individuals like me who enjoy taking copious notes before acting on things. ReactJS was the framework I used to construct this."
               ghLink="https://github.com/Sam-mx/Todo-List_react"
               demoLink="https://sam-todo.vercel.app"   
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Samverse}
+              isBlog={false}
+              title="Samverse"
+              description="Building a COMPLETE Fullstack Responsive Social 🌟MERN🌟 Application with Auth, Likes, Dark Mode | React, MongoDB, MUI. There's still no deployment for this application yet."
+              ghLink="https://github.com/Sam-mx/Responsive-Social-App"
+            />
+          </Col>
+          
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={AI}
+              isBlog={false}
+              title="AI Image Generation App"
+              description="A MERN Stack Project with Building and Deploying an AI Image Generation App.
+              🌟 Tech stack: MERN +  TailwindCSS + openAI API
+              👾 Since it's the paid API, the daily image generation is limited.
+              🚀 Can Create an image as a DALL-E after you paid the API.
+              👌 Here, I'm only experimenting with the logic; I'm not paying the API. Therefore, I don't deploy on the render."
+              ghLink="https://github.com/Sam-mx/AI-Image-Generation-App"     
+            />
+          </Col>
+          
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={ecommerce}
+              isBlog={false}
+              title="Sam eCommerce"
+              description="Build and Deploy a Responsive Full Stack E-Commerce App with an Admin Dashboard & CMS in 2024 | Next 14, Stripe.
+              🌟 Using Next.js and PayloadCMS to understand the CMS
+              🎃 Using MongoDB for the backend development
+              🚀 Since the trial mode is ended, there's no demo mode."
+              ghLink="https://github.com/Sam-mx/sam-ecommerce"      
             />
           </Col>
 
