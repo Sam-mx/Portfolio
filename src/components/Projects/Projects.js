@@ -70,6 +70,43 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={AI}
+              isBlog={false}
+              title="AI Image Generation App"
+              description="A MERN Stack Project with Building and Deploying an AI Image Generation App.
+              🌟 Tech stack: MERN +  TailwindCSS + openAI API
+              👾 Since it's the paid API, the daily image generation is limited.
+              🚀 Can Create an image as a DALL-E after you paid the API.
+              👌 Here, I'm only experimenting with the logic; I'm not paying the API. Therefore, I don't deploy on the render."
+              ghLink="https://github.com/Sam-mx/AI-Image-Generation-App"     
+            />
+          </Col>
+          
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={ecommerce}
+              isBlog={false}
+              title="Sam eCommerce"
+              description="Build and Deploy a Responsive Full Stack E-Commerce App with an Admin Dashboard & CMS in 2024 | Next 14, Stripe.
+              🌟 Using Next.js and PayloadCMS to understand the CMS
+              🎃 Using MongoDB for the backend development
+              🚀 Since the trial mode is ended, there's no demo mode."
+              ghLink="https://github.com/Sam-mx/sam-ecommerce"      
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={tennis_club}
+              isBlog={false}
+              title="Tennis Club"
+              description="A University's Tennis Club where users can learn about details about this club.They can also view and register for the upcoming events. An administrator can view, insert, update, and delete those applicants. This was for my Web Programming Assignment."
+              ghLink="https://github.com/Sam-mx/Tennis_Club_Assignment"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={weather}
               isBlog={false}
               title="Weather Application"
@@ -139,43 +176,6 @@ function Projects() {
               title="Samverse"
               description="Building a COMPLETE Fullstack Responsive Social 🌟MERN🌟 Application with Auth, Likes, Dark Mode | React, MongoDB, MUI. There's still no deployment for this application yet."
               ghLink="https://github.com/Sam-mx/Responsive-Social-App"
-            />
-          </Col>
-          
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={AI}
-              isBlog={false}
-              title="AI Image Generation App"
-              description="A MERN Stack Project with Building and Deploying an AI Image Generation App.
-              🌟 Tech stack: MERN +  TailwindCSS + openAI API
-              👾 Since it's the paid API, the daily image generation is limited.
-              🚀 Can Create an image as a DALL-E after you paid the API.
-              👌 Here, I'm only experimenting with the logic; I'm not paying the API. Therefore, I don't deploy on the render."
-              ghLink="https://github.com/Sam-mx/AI-Image-Generation-App"     
-            />
-          </Col>
-          
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={ecommerce}
-              isBlog={false}
-              title="Sam eCommerce"
-              description="Build and Deploy a Responsive Full Stack E-Commerce App with an Admin Dashboard & CMS in 2024 | Next 14, Stripe.
-              🌟 Using Next.js and PayloadCMS to understand the CMS
-              🎃 Using MongoDB for the backend development
-              🚀 Since the trial mode is ended, there's no demo mode."
-              ghLink="https://github.com/Sam-mx/sam-ecommerce"      
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={tennis_club}
-              isBlog={false}
-              title="Tennis Club"
-              description="A University's Tennis Club where users can learn about details about this club.They can also view and register for the upcoming events. An administrator can view, insert, update, and delete those applicants. This was for my Web Programming Assignment."
-              ghLink="https://github.com/Sam-mx/Tennis_Club_Assignment"
             />
           </Col>
 
