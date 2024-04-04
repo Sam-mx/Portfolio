@@ -16,6 +16,7 @@ import AI from "../../Assets/Projects/AI-image.png";
 import Samverse from "../../Assets/Projects/samverse.png";
 import samcrypto from "../../Assets/Projects/sam_crypto.png";
 import expense from "../../Assets/Projects/expense.png";
+import game from "../../Assets/Projects/sam-game.png";
 
 function Projects() {
   return (
@@ -67,6 +68,20 @@ function Projects() {
               demoLink="https://chat-application-sam.onrender.com"         
             />
           </Col>
+          
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={game}
+              isBlog={false}
+              title="Sam Game Portal"
+              description="A web application that allows users to search for games based on genres, platforms, release dates, and ratings. It provides a convenient way to explore and find games that match your preferences. Features: 
+              🌟 Search for games by genre, platform, release date, and rating
+              🎃 Sort search results by popularity, release date, or rating.
+              🚀 User-friendly interface for easy navigation."
+              ghLink="https://github.com/Sam-mx/Game-Portal"
+              demoLink="https://sam-game-portal.vercel.app/"
+            />
+          </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -97,22 +112,26 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={tennis_club}
-              isBlog={false}
-              title="Tennis Club"
-              description="A University's Tennis Club where users can learn about details about this club.They can also view and register for the upcoming events. An administrator can view, insert, update, and delete those applicants. This was for my Web Programming Assignment."
-              ghLink="https://github.com/Sam-mx/Tennis_Club_Assignment"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
               imgPath={weather}
               isBlog={false}
               title="Weather Application"
               description="A simple weather forecasting application that allows users to type in their city and see the weather for the next week, including wind speed, humidity, and heat index. 🌟 Tech stack: 🚀 REACT +  🎐 Axio  + ☂️ TailwindCSS"
               ghLink="https://github.com/Sam-mx/Weather-Application-React"
               demoLink="https://sam-weather-app.vercel.app"   
+            />
+          </Col>
+          
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={expense}
+              isBlog={false}
+              title="Sam's Expense Tracker"
+              description="It's a Webapp that can be used to keep track of all incomes and expenses so that you never have to wonder where you spent all your hard earned money!
+               Using 🌟React.js
+              🎃 JavaScript, 🚀 CSS
+              👾 MaterialUI"
+              ghLink="https://github.com/Sam-mx/Sam-Expense-Tracker"
+              demoLink="https://sam-expense.vercel.app/"         
             />
           </Col>
 
@@ -146,20 +165,6 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={expense}
-              isBlog={false}
-              title="Sam's Expense Tracker"
-              description="It's a Webapp that can be used to keep track of all incomes and expenses so that you never have to wonder where you spent all your hard earned money!
-               Using 🌟React.js
-              🎃 JavaScript, 🚀 CSS
-              👾 MaterialUI"
-              ghLink="https://github.com/Sam-mx/Sam-Expense-Tracker"
-              demoLink="https://sam-expense.vercel.app/"         
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
               imgPath={todo}
               isBlog={false}
               title="To do List"
@@ -176,6 +181,16 @@ function Projects() {
               title="Samverse"
               description="Building a COMPLETE Fullstack Responsive Social 🌟MERN🌟 Application with Auth, Likes, Dark Mode | React, MongoDB, MUI. There's still no deployment for this application yet."
               ghLink="https://github.com/Sam-mx/Responsive-Social-App"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={tennis_club}
+              isBlog={false}
+              title="Tennis Club"
+              description="A University's Tennis Club where users can learn about details about this club.They can also view and register for the upcoming events. An administrator can view, insert, update, and delete those applicants. This was for my Web Programming Assignment."
+              ghLink="https://github.com/Sam-mx/Tennis_Club_Assignment"
             />
           </Col>
 
