@@ -2,6 +2,7 @@
   Portfolio Website<br/>
   <a href="https://sanshwe.vercel.app/" target="_blank">Sam</a>
 </h2>
+
 <div align="center">
   <img alt="Demo" src="./Images/image.png" />
   <br>
@@ -9,6 +10,10 @@
 </div>
 
 <br/>
+
+## Description
+
+This is my portfolio, which will highlight the front-end development abilities I possess as well as the projects I have been working on this year. View my live demo mode, as previously mentioned.
 
 ## Built With
 
