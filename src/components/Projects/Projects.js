@@ -17,6 +17,7 @@ import Samverse from "../../Assets/Projects/samverse.png";
 import samcrypto from "../../Assets/Projects/sam_crypto.png";
 import expense from "../../Assets/Projects/expense.png";
 import game from "../../Assets/Projects/sam-game.png";
+import tic_tac from "../../Assets/Projects/tic-tac.png";
 
 function Projects() {
   return (
@@ -176,11 +177,15 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={Samverse}
+              imgPath={tic_tac}
               isBlog={false}
-              title="Samverse"
-              description="Building a COMPLETE Fullstack Responsive Social 🌟MERN🌟 Application with Auth, Likes, Dark Mode | React, MongoDB, MUI. There's still no deployment for this application yet."
-              ghLink="https://github.com/Sam-mx/Responsive-Social-App"
+              title="Sam's Tic-Tac-Toe"
+              description="It's a straightforward online game. This game is playable by two people.
+               Using 🌟React.js
+              🎃 CSS3, 🚀 SCSS
+              👾 Framer-motion"
+              ghLink="https://github.com/Sam-mx/React-Tic-Tac-Toe"
+              demoLink="https://sam-tic-tac-toe.vercel.app/"         
             />
           </Col>
 
@@ -211,6 +216,16 @@ function Projects() {
               title="RentalU"
               description="RentalU Application using SQLite Database to do INSERT, UPDATE, DELETE, READ QUERY For Assignment. It is using Java language to develop an android application. It's about an application for renting apartments, where tenants can list the details of their units. "
               ghLink="https://github.com/Sam-mx/RentalU_Andriod"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Samverse}
+              isBlog={false}
+              title="Samverse"
+              description="Building a COMPLETE Fullstack Responsive Social 🌟MERN🌟 Application with Auth, Likes, Dark Mode | React, MongoDB, MUI. There's still no deployment for this application yet."
+              ghLink="https://github.com/Sam-mx/Responsive-Social-App"
             />
           </Col>
 
