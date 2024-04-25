@@ -18,6 +18,7 @@ import samcrypto from "../../Assets/Projects/sam_crypto.png";
 import expense from "../../Assets/Projects/expense.png";
 import game from "../../Assets/Projects/sam-game.png";
 import tic_tac from "../../Assets/Projects/tic-tac.png";
+import travel from "../../Assets/Projects/travel.png";
 
 function Projects() {
   return (
@@ -108,6 +109,23 @@ function Projects() {
               🎃 Using MongoDB for the backend development
               🚀 Since the trial mode is ended, there's no demo mode."
               ghLink="https://github.com/Sam-mx/sam-ecommerce"      
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={travel}
+              isBlog={false}
+              title="Sam Travel Application"
+              description="Built with Next.js, TailwindCSS, and TypeScript, this landing page not only looks great but also serves as a hands-on project to reinforce one's understanding of these technologies. Features:
+              🌟 Appealing Hero Section
+              🎃 Camp Exploration Section
+              🚀 Engaging Travel Guide Section
+              👉 Feature-Rich Section
+              🤖 Call to Action for Mobile Apps
+              ⚙️ Footer"
+              ghLink="https://github.com/Sam-mx/Travel-App" 
+              demoLink="https://sam-travel.vercel.app/"     
             />
           </Col>
 
