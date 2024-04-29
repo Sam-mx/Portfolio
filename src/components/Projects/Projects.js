@@ -19,6 +19,7 @@ import expense from "../../Assets/Projects/expense.png";
 import game from "../../Assets/Projects/sam-game.png";
 import tic_tac from "../../Assets/Projects/tic-tac.png";
 import travel from "../../Assets/Projects/travel.png";
+import nike from "../../Assets/Projects/nike.png";
 
 function Projects() {
   return (
@@ -126,6 +127,24 @@ function Projects() {
               ⚙️ Footer"
               ghLink="https://github.com/Sam-mx/Travel-App" 
               demoLink="https://sam-travel.vercel.app/"     
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={nike}
+              isBlog={false}
+              title="Nike Clone"
+              description="Built with React.js, TailwindCSS, and JavaScript, this is a Responsive landing page. Features:
+              🌟 Complex Hero Section
+              🎃 Popular Products Showcase
+              🚀 About Us Section
+              👉 Special Offers
+              🤖 Testimonials
+              👾 Newsletter Integration
+              ⚙️ Footer"
+              ghLink="https://github.com/Sam-mx/Nike" 
+              demoLink="https://sam-nike.vercel.app/"     
             />
           </Col>
 
