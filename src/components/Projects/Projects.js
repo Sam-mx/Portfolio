@@ -20,6 +20,7 @@ import game from "../../Assets/Projects/sam-game.png";
 import tic_tac from "../../Assets/Projects/tic-tac.png";
 import travel from "../../Assets/Projects/travel.png";
 import nike from "../../Assets/Projects/nike.png";
+import brainwave from "../../Assets/Projects/brainwave.png";
 
 function Projects() {
   return (
@@ -127,6 +128,23 @@ function Projects() {
               ⚙️ Footer"
               ghLink="https://github.com/Sam-mx/Travel-App" 
               demoLink="https://sam-travel.vercel.app/"     
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={brainwave}
+              isBlog={false}
+              title="Brainwave Clone"
+              description="Brainwave - Modern UI/UX website, developed using React.js and Tailwind CSS, exemplifies modern UI/UX principles. Its sleek design, seamless animations, and overall user experience set a high standard, serving as a reference or inspiration for future modern applications or websites in general. Features:
+              🌟 Beautiful Sections
+              🎃 Parallax Animations
+              🚀 Complex UI Geometry
+              👉 Latest UI Trends
+              🤖 Cool Gradients
+              👾 Responsive"
+              ghLink="https://github.com/Sam-mx/Brainwave-Clone" 
+              demoLink="https://sam-brainwave.vercel.app/"     
             />
           </Col>
 
