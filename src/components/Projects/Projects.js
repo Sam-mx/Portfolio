@@ -21,6 +21,7 @@ import tic_tac from "../../Assets/Projects/tic-tac.png";
 import travel from "../../Assets/Projects/travel.png";
 import nike from "../../Assets/Projects/nike.png";
 import brainwave from "../../Assets/Projects/brainwave.png";
+import nasa from "../../Assets/Projects/nasa.png"
 
 function Projects() {
   return (
@@ -188,6 +189,20 @@ function Projects() {
               👾 MaterialUI"
               ghLink="https://github.com/Sam-mx/Sam-Expense-Tracker"
               demoLink="https://sam-expense.vercel.app/"         
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={nasa}
+              isBlog={false}
+              title="Sam's Nasa Application"
+              description="It's a ReactJS Application that is used with NASA OPEN API to read the updated informations.
+               Using 🌟React.js
+              🎃 JavaScript, 🚀 CSS
+              👾 NASA API"
+              ghLink="https://github.com/Sam-mx/Nasa-React"
+              demoLink="https://sam-nasa-react.netlify.app/"         
             />
           </Col>
 
