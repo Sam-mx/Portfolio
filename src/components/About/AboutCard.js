@@ -13,7 +13,7 @@ function AboutCard() {
             <br />
             You can call me <span className="purple">Sam.</span>
             <br />
-            I'm recently graduated with a Higher Diploma of Infocomm Technology from British University College.
+            I'm recently graduated with a Higher Diploma in Infocomm Technology from TMC Academy, Singapore.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
