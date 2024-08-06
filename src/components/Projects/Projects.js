@@ -22,6 +22,7 @@ import travel from "../../Assets/Projects/travel.png";
 import nike from "../../Assets/Projects/nike.png";
 import brainwave from "../../Assets/Projects/brainwave.png";
 import nasa from "../../Assets/Projects/nasa.png"
+import terra from "../../Assets/Projects/terradisam.png"
 
 function Projects() {
   return (
@@ -112,6 +113,23 @@ function Projects() {
               🎃 Using MongoDB for the backend development
               🚀 Since the trial mode is ended, there's no demo mode."
               ghLink="https://github.com/Sam-mx/sam-ecommerce"      
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={terra}
+              isBlog={false}
+              title="Terra di Sam"
+              description="Built with React.js, and JavaScript, this landing page not only looks great but also serves as a hands-on project to reinforce one's understanding of these technologies. Features:
+              🌟 Responsive Layout
+              🎃 Recipe Section
+              🚀 Review Section
+              👉 Styled Components
+              🤖 Centered Content
+              ⚙️ Consistent Design"
+              ghLink="https://github.com/Sam-mx/Terra-di-Sam" 
+              demoLink="https://terra-di-sam.vercel.app/"     
             />
           </Col>
 
