@@ -19,36 +19,35 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-            I guess I've learned something about programming and have fallen in love with it 🤷‍♂️
+              <i>
+            I’ve developed a deep passion for <b className="purple">programming and project management</b>, discovering the power of combining these two fields to create impactful solutions. 🤷‍♂️
               <br />
               <br />I am fluent in classics like
-              <i>
-                <b className="purple"> Javascript</b>
-              </i>
+              
+                <b className="purple"> Javascript</b>.  I enjoy turning ideas into reality by managing projects while staying hands-on with coding in
+              
+              <b className="purple"> JavaScript and TypeScript.</b>
+              
               <br />
               <br />
-              Developing innovative&nbsp;
-              <i>
-                <b className="purple">Web Technologies and Products </b> and
-                as well as subjects pertaining to ,{" "}
+              I enjoy exploring modern technologies like&nbsp;
+              
+                <b className="purple">React.js and Next.js </b>I have a keen interest in developing&nbsp;
                 <b className="purple">
-                education,&nbsp;
+                innovative web technologies and products,&nbsp;
                 </b>
-                are my areas of interest.
-              </i>
+                especially in the education sector.
+              
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Javascript & Typescript</b> and
-              <i>
+              
+              Whenever possible, I apply my expertise in both <b className="purple">development and project management.</b> From leading teams to delivering projects on time, I leverage tools like
                 <b className="purple">
                   {" "}
-                  Modern Javascript Library and Frameworks
+                  ClickUp and Microsoft Project
                 </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js, Next.js.</b>
+              
+              &nbsp; to ensure smooth execution.
               </i>
             </p>
           </Col>

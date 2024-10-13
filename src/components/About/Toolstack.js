@@ -7,7 +7,10 @@ import {
   SiGithub,
   SiVercel,
   SiRender,
-  SiStripe
+  SiStripe,
+  SiClickup,
+  SiMiro,
+  SiMicrosoftoffice
 } from "react-icons/si";
 
 function Toolstack() {
@@ -15,6 +18,15 @@ function Toolstack() {
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
         <SiGithub />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiClickup />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiMiro />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiMicrosoftoffice />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiVisualstudiocode />
