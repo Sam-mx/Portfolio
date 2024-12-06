@@ -10,7 +10,8 @@ import {
   SiStripe,
   SiClickup,
   SiMiro,
-  SiMicrosoftoffice
+  SiMicrosoftoffice,
+  SiMicrosoftsharepoint
 } from "react-icons/si";
 
 function Toolstack() {
@@ -27,6 +28,9 @@ function Toolstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiMicrosoftoffice />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiMicrosoftsharepoint />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiVisualstudiocode />

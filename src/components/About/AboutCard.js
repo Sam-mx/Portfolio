@@ -8,30 +8,21 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">San Shwe </span>
-            from <span className="purple"> Yangon, Myanmar.</span>
-            <br />
-            You can call me <span className="purple">Sam.</span>
-            <br />
-            I'm recently graduated with a Higher Diploma in Infocomm Technology from TMC Academy, Singapore.
-            <br />
-            <br />
-            Apart from coding, some other activities that I love to do!
+          Hi everyone, I'm <b className="purple">San Shwe</b>, or <b className="purple">Sam</b> for short. I'm a passionate <b className="purple">IT professional</b> from <b className="purple">Yangon, Myanmar</b>. I recently graduated from TMC Academy in Singapore with a Higher Diploma in Infocomm Technology.
+          <br/>
+          <br/>
+          I'm skilled in <b className="purple">web development</b>, particularly with <b className="purple">JavaScript, React.js,</b> and <b className="purple">Next.js</b>. I'm also proficient in <b className="purple">project management</b>, utilizing tools like <b className="purple">ClickUp</b> and <b className="purple">Microsoft Project</b> to deliver projects efficiently.
+          <br/>
+          <br/>
+
+          Beyond coding, I enjoy sharing knowledge as a tutor and exploring new cultures through travel. Gaming also helps me relax and stay sharp.
+          
           </p>
-          <ul>
-            <li className="about-activity">
-              <ImPointRight /> <b className="purple">Teaching</b> – Sharing knowledge and guiding others is a big part of who I am.
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> <b className="purple">Traveling</b> – Exploring new places and cultures fuels my creativity.
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> <b className="purple">Playing Games</b> – Gaming helps me unwind and stay sharp.
-            </li>
-          </ul>
+         
+          
 
           <p style={{ color: "#ADD8E6" }}>
-            "Make it work, make it right, make it fast!"{" "}
+            "Let's connect and build something great together!"{" "}
           </p>
           <footer className="blockquote-footer">Sam</footer>
         </blockquote>

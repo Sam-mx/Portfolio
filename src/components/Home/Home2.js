@@ -20,34 +20,21 @@ function Home2() {
             </h1>
             <p className="home-about-body">
               <i>
-            I’ve developed a deep passion for <b className="purple">programming and project management</b>, discovering the power of combining these two fields to create impactful solutions. 🤷‍♂️
-              <br />
-              <br />I am fluent in classics like
-              
-                <b className="purple"> Javascript</b>.  I enjoy turning ideas into reality by managing projects while staying hands-on with coding in
-              
-              <b className="purple"> JavaScript and TypeScript.</b>
-              
+              I'm a passionate <b className="purple">programmer</b> and <b className="purple">project manager</b>, skilled in leveraging technology to create innovative solutions. With a strong foundation in
+
+              <b className="purple"> JavaScript </b> and <b className="purple">TypeScript</b>, I've successfully built web applications using frameworks like
+              <b className="purple"> React.js </b> and <b className="purple">Next.js</b>.
               <br />
               <br />
-              I enjoy exploring modern technologies like&nbsp;
+              My experience in
+                <b className="purple"> project management</b>, coupled with my technical expertise, allows me to efficiently lead teams and deliver projects on time and within budget. I utilize tools like
+                <b className="purple"> ClickUp </b> and <b className="purple">Microsoft Project</b> to streamline workflows and ensure project success.
               
-                <b className="purple">React.js and Next.js </b>I have a keen interest in developing&nbsp;
-                <b className="purple">
-                innovative web technologies and products,&nbsp;
-                </b>
-                especially in the education sector.
+              <br/>
+              <br />
+              I'm particularly interested in applying my skills to the education sector, developing innovative web-based learning tools and platforms.
               
               <br />
-              <br />
-              
-              Whenever possible, I apply my expertise in both <b className="purple">development and project management.</b> From leading teams to delivering projects on time, I leverage tools like
-                <b className="purple">
-                  {" "}
-                  ClickUp and Microsoft Project
-                </b>
-              
-              &nbsp; to ensure smooth execution.
               </i>
             </p>
           </Col>
