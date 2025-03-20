@@ -10,6 +10,7 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
           Hi everyone, I'm <b className="purple">San Shwe</b>, or <b className="purple">Sam</b> for short. I'm a passionate <b className="purple">IT professional</b> hailing from <b className="purple">Yangon, Myanmar</b>. Currently, I'm dedicated to expanding my knowledge and skills through the Bachelor of Science (Honours) in Computing Top-up program at Amity Global Institute (AGI) in Singapore. This academic pursuit is a key focus in my professional development.
           <br/>
+          <br/>
           My core expertise lies in <b className="purple">web development</b>, where I'm particularly skilled in utilizing <b className="purple">JavaScript, React.js,</b> and <b className="purple">Next.js</b>. I'm also well-versed in <b className="purple">project management</b>, utilizing tools like <b className="purple">ClickUp</b> and <b className="purple">Microsoft Project</b> to deliver projects efficiently. These skills allow me to effectively manage and execute IT projects.
           <br/>
           <br/>
