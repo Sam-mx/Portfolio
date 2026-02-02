@@ -21,8 +21,9 @@ import tic_tac from "../../Assets/Projects/tic-tac.png";
 import travel from "../../Assets/Projects/travel.png";
 import nike from "../../Assets/Projects/nike.png";
 import brainwave from "../../Assets/Projects/brainwave.png";
-import nasa from "../../Assets/Projects/nasa.png"
-import terra from "../../Assets/Projects/terradisam.png"
+import nasa from "../../Assets/Projects/nasa.png";
+import terra from "../../Assets/Projects/terradisam.png";
+import samwise from "../../Assets/Projects/samwise.png";
 
 function Projects() {
   return (
@@ -36,6 +37,17 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={samwise}
+              isBlog={false}
+              title="🧙‍♂️ Samwise - AI Project Management Tool"
+              description="🚀 A next-gen project management tool that thinks for you! Built with the MERN stack and TypeScript, Samwise isn't just a Kanban board—it's your AI-powered productivity partner. 🧠 Integrating Google Gemini, it automatically prioritizes tasks, suggests smart categories, and offers real-time consultation. Features a buttery-smooth drag-and-drop interface, live collaboration via Socket.io ⚡, and enterprise-grade security with dual-token auth. Containerized with Docker 🐳 for seamless deployment."
+              ghLink="https://github.com/Sam-mx/Project-Management_Tool"
+              demoLink="https://samwise-pmt.vercel.app/"   
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={unviersity}

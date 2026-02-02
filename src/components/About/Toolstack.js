@@ -11,7 +11,9 @@ import {
   SiClickup,
   SiMiro,
   SiMicrosoftoffice,
-  SiMicrosoftsharepoint
+  SiMicrosoftsharepoint,
+  SiJira,
+  SiAsana
 } from "react-icons/si";
 
 function Toolstack() {
@@ -22,6 +24,12 @@ function Toolstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiClickup />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiAsana />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiJira />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiMiro />

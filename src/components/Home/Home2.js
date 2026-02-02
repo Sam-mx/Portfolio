@@ -20,20 +20,22 @@ function Home2() {
             </h1>
             <p className="home-about-body">
               <i>
-              I'm a passionate <b className="purple">programmer</b> and <b className="purple">project manager</b>, skilled in leveraging technology to create innovative solutions. With a strong foundation in
-
-              <b className="purple"> JavaScript </b> and <b className="purple">TypeScript</b>, I've successfully built web applications using frameworks like
-              <b className="purple"> React.js </b> and <b className="purple">Next.js</b>.
+              I am a <b className="purple">Computer Science Graduate</b> and <b className="purple">Project Operations Specialist</b>, distinctively positioned at the intersection of software development and business execution.
               <br />
               <br />
-              My experience in
-                <b className="purple"> project management</b>, coupled with my technical expertise, allows me to efficiently lead teams and deliver projects on time and within budget. I utilize tools like
-                <b className="purple"> ClickUp </b> and <b className="purple">Microsoft Project</b> to streamline workflows and ensure project success.
+              With a strong technical foundation in the 
+              <b className="purple"> MERN Stack (MongoDB, Express, React, Node.js) </b> and <b className="purple">TypeScript</b>, I specialize in building scalable, real-time web applications. My recent work includes architecting AI-enhanced collaboration tools using 
+              <b className="purple"> WebSockets </b> and <b className="purple">Next.js</b>.
+              <br />
+              <br />
+              Beyond coding, I bring professional experience in
+                <b className="purple"> Technical Project Coordination</b>, I leverage <b className="purple"> Power BI </b> for data-driven decision-making and utilize tools like
+                <b className="purple"> ClickUp </b> and <b className="purple">Microsoft Project</b> to orchestrate complex workflows. My background extends into <b className="purple"> IT Operations</b>, where I have successfully implemented <b className="purple"> Data Loss Prevention (DLP) </b> protocols and managed multi-site technical assets.
               
               <br/>
               <br />
-              I'm particularly interested in applying my skills to the education sector, developing innovative web-based learning tools and platforms.
-              
+              I am particularly interested in applying this unique blend of 
+              <b className="purple"> technical architecture </b> and <b className="purple">operational discipline</b> to the education sector, developing innovative web-based learning platforms that are secure, data-rich, and user-centric.
               <br />
               </i>
             </p>

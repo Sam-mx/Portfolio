@@ -7,24 +7,31 @@ function AboutCard() {
     <Card className="quote-card-view">
       <Card.Body>
         <blockquote className="blockquote mb-0">
-          <p style={{ textAlign: "justify" }}>
-          Hi everyone, I'm <b className="purple">San Shwe</b>, or <b className="purple">Sam</b> for short. I'm a passionate <b className="purple">IT professional</b> hailing from <b className="purple">Yangon, Myanmar</b>. Currently, I'm dedicated to expanding my knowledge and skills through the Bachelor of Science (Honours) in Computing Top-up program at Amity Global Institute (AGI) in Singapore. This academic pursuit is a key focus in my professional development.
-          <br/>
-          <br/>
-          My core expertise lies in <b className="purple">web development</b>, where I'm particularly skilled in utilizing <b className="purple">JavaScript, React.js,</b> and <b className="purple">Next.js</b>. I'm also well-versed in <b className="purple">project management</b>, utilizing tools like <b className="purple">ClickUp</b> and <b className="purple">Microsoft Project</b> to deliver projects efficiently. These skills allow me to effectively manage and execute IT projects.
-          <br/>
-          <br/>
+  <p style={{ textAlign: "justify" }}>
+    Hi everyone, I'm <b className="purple">San Shwe</b> (or <b className="purple">Sam</b>). I am a <b className="purple">Computer Science Graduate</b> and <b className="purple">Project Operations Specialist</b> based in Singapore. Currently, I am finalizing my B.Sc. (Honours) in Computing from the <b className="purple">University of Northampton</b>, focusing on advanced system architecture and AI.
+    <br />
+    <br />
+    My professional edge lies in my ability to <b className="purple">bridge the gap</b> between code and coordination.
+  </p>
 
-          Beyond my technical pursuits, I find fulfillment in sharing knowledge as a tutor. I also have a strong passion for exploring diverse cultures through travel. To unwind and maintain mental agility, I enjoy gaming. These activities provide a valuable balance to my professional and academic life.
-          </p>
-         
-          
+  <ul>
+    <li style={{ listStyleType: "none", paddingBottom: "10px" }}>
+      👉 <b className="purple">Technically</b>, I am a Full-Stack Developer skilled in <b className="purple">JavaScript, React.js, and Next.js</b>, building scalable web applications with real-time features.
+    </li>
+    <li style={{ listStyleType: "none", paddingBottom: "10px" }}>
+      👉 <b className="purple">Operationally</b>, I am an experienced Project Coordinator. I utilize tools like <b className="purple">ClickUp</b> and <b className="purple">Microsoft Project</b> to streamline workflows, while leveraging <b className="purple">Power BI</b> for data-driven decisions and implementing <b className="purple">DLP protocols</b> for security.
+    </li>
+  </ul>
 
-          <p style={{ color: "#ADD8E6" }}>
-            "Let's connect and build something great together!"{" "}
-          </p>
-          <footer className="blockquote-footer">Sam</footer>
-        </blockquote>
+  <p style={{ textAlign: "justify" }}>
+    Beyond the screen, I am passionate about <b className="purple">education and exploration</b>. My background as a tutor keeps me grounded in continuous learning, while my love for travel fuels my adaptability to diverse cultures. When I'm not coding or managing projects, you can find me gaming—keeping my strategic thinking sharp even while unwinding.
+  </p>
+
+  <p style={{ color: "#ADD8E6" }}>
+    "Let's connect and build something great together!"{" "}
+  </p>
+  <footer className="blockquote-footer">Sam</footer>
+</blockquote>
       </Card.Body>
     </Card>
   );
