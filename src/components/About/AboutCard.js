@@ -16,10 +16,10 @@ function AboutCard() {
 
   <ul>
     <li style={{ listStyleType: "none", paddingBottom: "10px" }}>
-      👉 <b className="purple">Technically</b>, I am a Full-Stack Developer skilled in <b className="purple">JavaScript, React.js, and Next.js</b>, building scalable web applications with real-time features.
+       <ImPointRight /> <b className="purple">Technically</b>, I am a Full-Stack Developer skilled in <b className="purple">JavaScript, React.js, and Next.js</b>, building scalable web applications with real-time features.
     </li>
     <li style={{ listStyleType: "none", paddingBottom: "10px" }}>
-      👉 <b className="purple">Operationally</b>, I am an experienced Project Coordinator. I utilize tools like <b className="purple">ClickUp</b> and <b className="purple">Microsoft Project</b> to streamline workflows, while leveraging <b className="purple">Power BI</b> for data-driven decisions and implementing <b className="purple">DLP protocols</b> for security.
+       <ImPointRight /> <b className="purple">Operationally</b>, I am an experienced Project Coordinator. I utilize tools like <b className="purple">ClickUp</b> and <b className="purple">Microsoft Project</b> to streamline workflows, while leveraging <b className="purple">Power BI</b> for data-driven decisions and implementing <b className="purple">DLP protocols</b> for security.
     </li>
   </ul>
 
