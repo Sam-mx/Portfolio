@@ -297,7 +297,8 @@ button:focus {
   .Typewriter__wrapper {
     font-size: 1.4em !important;
     font-weight: 500 !important;
-    position: absolute !important;
+    margin-bottom: 10px !important; 
+    display: block !important;
   }
   .Typewriter__cursor {
     display: none !important;
