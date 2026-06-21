@@ -1,6 +1,5 @@
-import { Container, Row, Col, Card, Button } from "react-bootstrap";
-import React, { useState, useEffect } from "react";
-import { useNavigate } from "react-router-dom";
+import { Container, Row, Col } from "react-bootstrap";
+import React, {  useEffect } from "react";
 import Tilt from "react-parallax-tilt";
 import myPortrait from "../../Assets/sam.png"; 
 import Particle from "../Particle";

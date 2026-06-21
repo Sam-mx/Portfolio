@@ -14,7 +14,6 @@ import {
   SiMicrosoftsharepoint,
   SiJira,
   SiAsana,
-  SiZapier, 
   SiMicrosoftexcel, 
   SiConfluence
 } from "react-icons/si";
