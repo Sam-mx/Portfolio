@@ -153,7 +153,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons"><a href="https://github.com/Sam-mx" target="_blank" rel="noreferrer" className="icon-colour home-social-icons"><AiFillGithub /></a></li>
               <li className="social-icons"><a href="https://x.com/sanxhwe?s=21" target="_blank" rel="noreferrer" className="icon-colour home-social-icons"><AiOutlineTwitter /></a></li>
-              <li className="social-icons"><a href="https://www.linkedin.com/in/san-shwe-sam-564a32169/" target="_blank" rel="noreferrer" className="icon-colour home-social-icons"><FaLinkedinIn /></a></li>
+              <li className="social-icons"><a href="https://www.linkedin.com/in/san-xhwe/" target="_blank" rel="noreferrer" className="icon-colour home-social-icons"><FaLinkedinIn /></a></li>
               <li className="social-icons"><a href="https://www.instagram.com/san_xhwe/" target="_blank" rel="noreferrer" className="icon-colour home-social-icons"><AiFillInstagram /></a></li>
             </ul>
           </Col>
