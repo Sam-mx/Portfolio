@@ -4,34 +4,31 @@ import { ImPointRight } from "react-icons/im";
 
 function AboutCard() {
   return (
-    <Card className="quote-card-view">
+    <Card className="quote-card-view" style={{ backgroundColor: "rgba(20, 15, 35, 0.6)", border: "1px solid rgba(25, 234, 238, 0.2)", borderRadius: "12px", padding: "20px" }}>
       <Card.Body>
         <blockquote className="blockquote mb-0">
-  <p style={{ textAlign: "justify" }}>
-    Hi everyone, I'm <b className="purple">San Shwe</b> (or <b className="purple">Sam</b>). I am a <b className="purple">Computer Science Graduate</b> and <b className="purple">Project Operations Specialist</b> based in Singapore. Currently, I am finalizing my B.Sc. (Honours) in Computing from the <b className="purple">University of Northampton</b>, focusing on advanced system architecture and AI.
-    <br />
-    <br />
-    My professional edge lies in my ability to <b className="purple">bridge the gap</b> between code and coordination.
-  </p>
+          <p style={{ textAlign: "justify", fontSize: "1.1rem", color: "#ccd6f6", lineHeight: "1.8" }}>
+            I am a <b className="purple">Computer Science Graduate</b> and <b className="purple">IT Project Coordinator</b> dedicated to bridging the gap between technical execution and business operations. 
+            <br />
+            <br />
+            My approach is rooted in <b className="purple">methodical project delivery</b>. Beyond software development, I prioritize establishing rigorous documentation habits, such as consistent meeting minutes and structured SOPs, to ensure transparency and audit-readiness in every initiative.
+          </p>
 
-  <ul>
-    <li style={{ listStyleType: "none", paddingBottom: "10px" }}>
-       <ImPointRight /> <b className="purple">Technically</b>, I am a Full-Stack Developer skilled in <b className="purple">JavaScript, React.js, and Next.js</b>, building scalable web applications with real-time features.
-    </li>
-    <li style={{ listStyleType: "none", paddingBottom: "10px" }}>
-       <ImPointRight /> <b className="purple">Operationally</b>, I am an experienced Project Coordinator. I utilize tools like <b className="purple">ClickUp</b> and <b className="purple">Microsoft Project</b> to streamline workflows, while leveraging <b className="purple">Power BI</b> for data-driven decisions and implementing <b className="purple">DLP protocols</b> for security.
-    </li>
-  </ul>
+          <ul style={{ marginTop: "20px" }}>
+            <li style={{ listStyleType: "none", paddingBottom: "15px", fontSize: "1.05rem", color: "#e2e2e2" }}>
+              <ImPointRight style={{ color: "#19EAEE", marginRight: "10px" }} /> 
+              <b className="purple">Visual Communication</b>: I simplify complex IT workflows through architecture diagrams and flowcharts to ensure all stakeholders are aligned.
+            </li>
+            <li style={{ listStyleType: "none", paddingBottom: "15px", fontSize: "1.05rem", color: "#e2e2e2" }}>
+              <ImPointRight style={{ color: "#19EAEE", marginRight: "10px" }} /> 
+              <b className="purple">Operational Discipline</b>: I leverage tools like ClickUp, Jira, and Power BI to drive data-driven decision-making and efficient resource scheduling.
+            </li>
+          </ul>
 
-  <p style={{ textAlign: "justify" }}>
-    Beyond the screen, I am passionate about <b className="purple">education and exploration</b>. My background as a tutor keeps me grounded in continuous learning, while my love for travel fuels my adaptability to diverse cultures. When I'm not coding or managing projects, you can find me gaming—keeping my strategic thinking sharp even while unwinding.
-  </p>
-
-  <p style={{ color: "#ADD8E6" }}>
-    "Let's connect and build something great together!"{" "}
-  </p>
-  <footer className="blockquote-footer">Sam</footer>
-</blockquote>
+          <p style={{ color: "#19EAEE", textAlign: "center", marginTop: "20px", fontStyle: "italic", fontWeight: "500" }}>
+            "Operational transparency, built through structured documentation, is the foundation of successful project delivery."
+          </p>
+        </blockquote>
       </Card.Body>
     </Card>
   );
